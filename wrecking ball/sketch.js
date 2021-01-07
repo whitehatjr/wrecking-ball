@@ -11,6 +11,7 @@ function setup() {
   createCanvas(3000, 800);
   engine = Engine.create();
   world = engine.world;
+  console.log("Hello there, this is a change! - Jeremy")
 
   ground = new Ground(600, 600, 1200, 20);
 
